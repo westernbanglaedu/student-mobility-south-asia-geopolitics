@@ -1,0 +1,43 @@
+# robots.txt — Student Mobility South Asia Research
+# https://westernbanglaedu.github.io/student-mobility-south-asia-geopolitics/
+
+# Allow all legitimate search engines and AI search bots
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+# Allow all remaining crawlers
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://westernbanglaedu.github.io/student-mobility-south-asia-geopolitics/sitemap.xml

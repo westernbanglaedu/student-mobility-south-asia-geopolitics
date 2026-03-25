@@ -1,0 +1,23 @@
+# GitHub Pages Jekyll configuration
+# Minimal config: served as plain HTML, no processing needed
+
+title: Student Mobility in South Asia — Research & Analysis
+description: Evidence-based research on international student mobility in South Asia 2020–2025. Data on Bangladesh, India, Pakistan outbound flows.
+baseurl: "/student-mobility-south-asia-geopolitics"
+url: "https://westernbanglaedu.github.io"
+
+# Exclude non-web files from Jekyll build
+exclude:
+  - "*.md"
+  - "memory-bank/"
+  - "data/"
+  - "docs/plans/"
+  - "docs/research/"
+  - "docs/strategy/"
+
+# Allow HTML files to pass through without processing
+include:
+  - "*.html"
+
+# Disable Jekyll processing for already-built HTML
+plugins: []
